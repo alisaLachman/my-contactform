@@ -1,8 +1,9 @@
 .App {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0px;
+  padding: 0rem;
   text-align: center;
+  flex-direction: column;
 }
 
 .logo {
@@ -48,4 +49,26 @@
 
 .read-the-docs {
   color: #888;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+}
+.form {
+  margin: 10px;
+  flex-direction: column;
+  padding: 10px;
+}
+.button {
+  border: 1px solid #000000;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-items: center;
+  align-content: space-between;
+  justify-content: space-evenly;
+  align-self: end;
+  width: 100%;
 }
