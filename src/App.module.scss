@@ -9,7 +9,7 @@
   border-radius: 10px;
   align-items: center;
   color: #330909;
-  background-color: rgba(186, 39, 39, 0.33);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .logo {
@@ -62,14 +62,10 @@
   width: 100%;
   flex-wrap: wrap;
   align-items: center;
-  color: #2d1bce;
+  color: #020012;
   border: 1px solid #a7a0a0;
   border-radius: 6px;
-  &:hover {
-    border: 1px solid #a1a0a7;
-  }
   &:focus {
-    border: 1px solid #2a2ac4;
   }
 }
 .name {
