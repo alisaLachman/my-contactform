@@ -25,11 +25,11 @@ function App() {
                     <input id={'name'} name={'name'} className={styles.input} />
                 </div>
                 <div className={styles.input_div}>
-                    <label>Email</label>
+                    <label className={styles.name}>Email</label>
                     <input id={'email'} name={'email'} className={styles.input} />
                 </div>
                 <div className={styles.input_div}>
-                    <label>Massage </label>
+                    <label className={styles.name}>Massage </label>
                     <input id={'Massage '} name={'Massage '} className={styles.input} />
                 </div>
                 <div className={styles.buttonPadding}>
