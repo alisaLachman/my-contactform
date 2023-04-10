@@ -6,6 +6,8 @@
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 10px;
+  align-items: center;
 }
 
 .logo {
@@ -55,25 +57,30 @@
 .input {
   flex-direction: row;
   padding: 0.5em 0.8em 0.6em;
-  width: auto;
+  width: 100%;
   flex-wrap: wrap;
   align-items: center;
 }
 .name {
 }
 .form {
-  margin: 40px;
+  margin: 0px 40px 40px;
   flex-direction: row;
-  padding: 10px;
+  padding: 25px;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
   justify-content: center;
-  width: 20rem;
   justify-items: center;
+  display: flex;
+  width: 25rem;
+  background-color: #ffffff;
+  box-shadow: 1.35px 5.85px 33px -17px #373030;
+  border-radius: 16px;
+  border: 1.5px solid #a4d0df;
 }
 .button {
-  border: 1px solid #000000;
+  border: 0px solid #000000;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -82,12 +89,44 @@
   justify-content: space-evenly;
   align-self: end;
   width: 100%;
+  margin: 1px;
+  background-color: #424fdf;
+  color: #ffffff;
+  font-weight: 600;
 }
 .input_div {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0px;
   padding: 10px;
   flex-wrap: wrap;
+  align-items: start;
+}
+.buttonPadding {
+  padding: 10px;
+  width: 100%;
+}
+.Headline {
+}
+.contact_Us_Padding {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0px 25px;
+  margin: 0px;
+  align-items: center;
+  justify-items: center;
+  width: 25rem;
+}
+.Paragraph_Form {
+  width: 25rem;
+  margin: 4px 4px 20px;
+}
+.H1_Form {
+  padding: 0px;
+  margin: 40px 4px 4px;
+}
+.Grey_Paragraph {
+  color: #9a9696;
 }
